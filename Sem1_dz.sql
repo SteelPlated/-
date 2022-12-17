@@ -9,7 +9,7 @@ Price INT
 );
 INSERT phones
 VALUES
-(1, 'K97', 'Siemens', 3, 5000),
+(1, 'K97', 'Nokia', 3, 5000),
 (2, '3310', 'Nokia', 2, 1000),
 (3, 'Galaxy S8', 'Samsung', 2, 30000),
 (4, 'Galaxy S7', 'Samsung', 1, 35000),
@@ -20,7 +20,7 @@ SELECT Manufacturer, Price FROM phones WHERE ProductCount > 2;
 
 SELECT * FROM phones WHERE Manufacturer = 'Samsung';
 
-SELECT * FROM phones WHERE ProductName LIKE 'Siemens';
+SELECT * FROM phones WHERE ProductName LIKE 'Nokia';
 
 SELECT * FROM phones WHERE ProductName RLIKE 'Galaxy';
 
